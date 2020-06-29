@@ -5,7 +5,7 @@ var response;
 
 app.get('/', function (req, res) {
 
-    response = 'This is version 2 of the app by Satish Narasimha.' + '\n';
+    response = 'This is version 3 of the app (with Webhooks) by Satish Narasimha.' + '\n';
 
     //send the response to the client
     res.send(response);
